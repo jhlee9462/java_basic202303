@@ -25,9 +25,10 @@ public class MemberRepository {
 
     /**
      * 회원 가입 기능
-     * @param1 - newMember : 새롭게 회원가입하는 회원의 정보
+     *
      * @return : 회원가입 성공 여부
-     *           성공시 true, 이메일이 중복되어 실패시 false
+     * 성공시 true, 이메일이 중복되어 실패시 false
+     * @param1 - newMember : 새롭게 회원가입하는 회원의 정보
      */
     void addMember(Member newMember) {
 
@@ -61,6 +62,7 @@ public class MemberRepository {
 
     /**
      * 이메일로 멤버를 찾는 기능
+     *
      * @param inputEmail : 입력받은 이메일
      * @return : 찾으면 해당 객체를 리턴하고 못찾으면 null을 리턴
      */
@@ -88,6 +90,10 @@ public class MemberRepository {
 
     }
 
+    /**
+     * 사용자를 삭제
+     * @param targetMember : 삭제할 사용자 객체
+     */
     void deleteMember(Member targetMember) {
         int targetIndex = -1;
 
@@ -109,5 +115,24 @@ public class MemberRepository {
         }
 
         memberList = temp;
+    }
+
+    /**
+     * 비밀번호를 수정하는 기능
+     *
+     * @param email       : 수정 대상의 이메일
+     * @param newPassword : 변경할 새로운 비밀번호
+     */
+    void changePassword(String email, String newPassword) {
+        // 수정 진행
+        for (Member member : memberList) {
+            if (member.equals(findMemberByEmail(email))) {
+                member.password = newPassword;
+            }
+        }
+    }
+
+    boolean isEmpty() {
+        return memberList.length == 0;
     }
 }
