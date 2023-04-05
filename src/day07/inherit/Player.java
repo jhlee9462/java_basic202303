@@ -26,4 +26,19 @@ public class Player {
         System.out.println("# level : " + this.level);
         System.out.println("# hp : " + this.hp);
     }
+
+    public String getNickName() {
+        return nickName;
+    }
+
+    public void getDamage(int damage) {
+        if (damage > this.hp) {
+            this.hp = 0;
+            System.out.println("사망했습니다.");
+            return;
+        }
+
+        this.hp -= damage;
+        System.out.println(this.nickName + "님이 " + damage + "의 피해를 입었습니다. ( 남은 체력 : " + this.hp + " ) ");
+    }
 }
