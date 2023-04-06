@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928f0dbb-d6da-4220-bc7d-cfbffdbc60de" name="Changes" comment="68일차 끝">
+    <list default="true" id="928f0dbb-d6da-4220-bc7d-cfbffdbc60de" name="Changes" comment="69일차 끝">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Mage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Mage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/inherit/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/inherit/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +16,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -57,7 +55,7 @@
       <recent name="day07.util" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Main">
+  <component name="RunManager" selected="애플리케이션.day09.musicplayer.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day08.poly.book.Main" />
       <module name="java_basic" />
@@ -71,12 +69,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.inherit.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.inherit.Main" />
+    <configuration name="day09.abs.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.abs.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.inherit.*" />
+          <option name="PATTERN" value="day09.abs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +82,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.lotto.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.lotto.Main" />
+    <configuration name="day09.inter.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.inter.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.lotto.*" />
+          <option name="PATTERN" value="day09.inter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +95,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day07.static_.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day07.static_.Main" />
+    <configuration name="day09.musicplayer.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.musicplayer.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day07.static_.*" />
+          <option name="PATTERN" value="day09.musicplayer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day08.poly.car.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day08.poly.car.Main" />
+    <configuration name="day09.quiz.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day09.quiz.Main" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day08.poly.car.*" />
+          <option name="PATTERN" value="day09.quiz.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.day09.musicplayer.Main" />
+        <item itemvalue="애플리케이션.day09.quiz.Main" />
+        <item itemvalue="애플리케이션.day09.inter.Main" />
+        <item itemvalue="애플리케이션.day09.abs.Main" />
         <item itemvalue="애플리케이션.Main" />
-        <item itemvalue="애플리케이션.day08.poly.car.Main" />
-        <item itemvalue="애플리케이션.day07.inherit.Main" />
-        <item itemvalue="애플리케이션.day07.lotto.Main" />
-        <item itemvalue="애플리케이션.day07.static_.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680597773953</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="69일차 끝">
+      <created>1680682374572</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1680682374572</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,7 +220,8 @@
     <MESSAGE value="오전수업 끝" />
     <MESSAGE value="67일차 끝" />
     <MESSAGE value="68일차 끝" />
-    <option name="LAST_COMMIT_MESSAGE" value="68일차 끝" />
+    <MESSAGE value="69일차 끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="69일차 끝" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
