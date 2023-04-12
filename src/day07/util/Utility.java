@@ -3,7 +3,7 @@ package day07.util;
 import java.util.Scanner;
 
 public class Utility {
-    static private Scanner sc = new Scanner(System.in);
+    static private final Scanner sc = new Scanner(System.in);
 
     // 구분선을 출력하는 기능
     public static void makeLine() {
