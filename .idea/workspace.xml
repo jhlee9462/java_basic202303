@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="928f0dbb-d6da-4220-bc7d-cfbffdbc60de" name="Changes" comment="73일차 끝">
+    <list default="true" id="928f0dbb-d6da-4220-bc7d-cfbffdbc60de" name="Changes" comment="74일차 끝">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day07/util/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day07/util/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day13/practice/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day13/practice/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +64,26 @@
       <recent name="day07.util" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.Sorting">
+  <component name="RunManager" selected="애플리케이션.Main">
     <configuration name="Finding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day13.Finding" />
       <module name="java_basic" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="day13.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day13.practice.Main" />
+      <module name="java_basic" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day13.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -105,19 +117,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="day13.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day13.Main" />
-      <module name="java_basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day13.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="day13.comparator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day13.comparator.Main" />
       <module name="java_basic" />
@@ -133,11 +132,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.Main" />
         <item itemvalue="애플리케이션.Sorting" />
         <item itemvalue="애플리케이션.day13.comparator.Main" />
         <item itemvalue="애플리케이션.Mapping" />
         <item itemvalue="애플리케이션.Finding" />
-        <item itemvalue="애플리케이션.day13.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1681182777181</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="73일차 끝">
+      <created>1681289449091</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1681289449091</updated>
+    </task>
+    <task id="LOCAL-00013" summary="74일차 끝">
+      <created>1681289464048</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1681289464048</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -263,7 +276,8 @@
     <MESSAGE value="71일차 끝" />
     <MESSAGE value="72일차 끝" />
     <MESSAGE value="73일차 끝" />
-    <option name="LAST_COMMIT_MESSAGE" value="73일차 끝" />
+    <MESSAGE value="74일차 끝" />
+    <option name="LAST_COMMIT_MESSAGE" value="74일차 끝" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
